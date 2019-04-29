@@ -1,0 +1,23 @@
+{
+  "name": "Nodify",
+  "version": "1.0.0",
+  "description": "Liri Bot App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcamb007/Nodify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcamb007/Nodify/issues"
+  },
+  "homepage": "https://github.com/gcamb007/Nodify#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.1.1"
+  }
+}
