@@ -1,5 +1,5 @@
 {
-  "name": "Nodify",
+  "name": "nodify",
   "version": "1.0.0",
   "description": "Liri Bot App",
   "main": "index.js",
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/gcamb007/Nodify#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "date-fns": "^1.30.1",
+    "dotenv": "^7.0.0",
     "node-spotify-api": "^1.1.1"
-  }
+  },
+  "devDependencies": {}
 }
