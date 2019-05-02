@@ -7,6 +7,10 @@ const spotify = new Spotify(keys.spotify);
 
 
 
+// ========== date-fns code ==============================
+// var isToday = require('date-fns/is_today')
+// isToday(new Date())
+// //=> true
 
 // ========== This is an example from the Spotify API ==============
 
