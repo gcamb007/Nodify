@@ -20,15 +20,13 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ## npm packages: 
 
-   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)\
+   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
    * [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
 
    * [OMDB API](http://www.omdbapi.com)
 
    * [Axios](https://www.npmjs.com/package/axios)
-
-   * [Date-FNS](https://date-fns.org/docs/Getting-Started) / Moment
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
 
