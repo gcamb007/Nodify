@@ -32,7 +32,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
    * [DotEnv](https://www.npmjs.com/package/dotenv)
 
 ## How to Run LIRI-Bot
-* 1. `node liri.js search-concerts <artist/band name here>`
+1. `node liri.js search-concerts <artist/band name here>`
 
    * This will search the TicketMaster Artist Events API for an artist and render the following information about each event to the terminal:
 
