@@ -10,12 +10,12 @@ const input = process.argv[3];
 console.log(command, input);
 
 // Input commands =================================
-if (command === "search-movie") {
-    getMovie(input)
+if (command === "search-concert") {
+    getConcert(input)
 } else if (command === "search-song") {
     getSong(input)
-} else if (command === "search-concert") {
-    getConcert(input)
+} else if (command === "search-movie") {
+    getMovie(input)
 } else if (command === "feeling-lucky") {
     getLucky(input)
 }
@@ -49,14 +49,14 @@ function getSong() {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-
-        // console.log("The name of the artist  is: " + data.tracks.items[0].artist.name);
-        // console.log("The name of the song is: " + data.tracks.items[0].track);
-        // console.log("The link to the album is: " + data.tracks.items[0].uri);
-        // console.log("The album that the song if from is: " + data.tracks.items[0].uri);
-        console.log(data.tracks.items[0])
+        const song = data.tracks.items[i];
+        console.log("Artist: " + song.artists[0].name);
+        console.log("Song: " + song.name);
+        console.log("Preview URL: " + song.preview_url);
+        console.log("Album: " + song.album.name);
     });
 }
+
 
 // Search-Movie ============================
 function getMovie(movie) {
