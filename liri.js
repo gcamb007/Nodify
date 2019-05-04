@@ -28,7 +28,7 @@ function getConcert() {
     axios.get(`https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey=${keys.tickemaster.id}`)
         .then(
             function (result) {
-                // console.log("The date of the event is: " + result.date);
+                console.log(result.data._embedded.events[0].name);
                 console.log(result);
             });
 }
