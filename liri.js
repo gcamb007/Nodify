@@ -49,7 +49,7 @@ function getSong() {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        const song = data.tracks.items[i];
+        const song = data.tracks.items[0];
         console.log("Artist: " + song.artists[0].name);
         console.log("Song: " + song.name);
         console.log("Preview URL: " + song.preview_url);
